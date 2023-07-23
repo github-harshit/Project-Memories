@@ -12,7 +12,7 @@
      }catch(err){
           res.json({
                 status: 404,
-                    message: err.message
+                    message: err
           })
      }
  }; 
@@ -82,4 +82,6 @@
       })
     }
  }
+
+
  
